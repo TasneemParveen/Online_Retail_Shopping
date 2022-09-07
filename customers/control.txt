@@ -1,0 +1,18 @@
+LOAD Data
+infile 'data.txt'
+into TABLE customer
+Fields terminated by ','
+(CUSTOMER_ID                ,    
+FIRST_NAME          ,
+LAST_NAME	    ,
+IMAGE_FILE_NAME 	FILLER CHAR(100),
+IMAGE			LOBFILE(IMAGE_FILE_NAME) TERMINATED BY EOF,
+ADDRESS			,
+PHONE			,
+EMAIL			,
+DATEOFBIRTH		,
+COUNTRY			,
+POSTAL_CODE		,
+CITY			,
+STATE			)
+

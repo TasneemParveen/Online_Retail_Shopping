@@ -1,0 +1,62 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Tue Sep 6 12:40:19 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   control.txt
+Data File:      data.txt
+  Bad File:     data.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CUSTOMER, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CUSTOMER_ID                         FIRST     *   ,       CHARACTER            
+FIRST_NAME                           NEXT     *   ,       CHARACTER            
+LAST_NAME                            NEXT     *   ,       CHARACTER            
+IMAGE_FILE_NAME                      NEXT   100   ,       CHARACTER            
+  (FILLER FIELD)
+IMAGE                             DERIVED     *  EOF      CHARACTER            
+    Dynamic LOBFILE.  Filename in field IMAGE_FILE_NAME
+ADDRESS                              NEXT     *   ,       CHARACTER            
+PHONE                                NEXT     *   ,       CHARACTER            
+EMAIL                                NEXT     *   ,       CHARACTER            
+DATEOFBIRTH                          NEXT     *   ,       CHARACTER            
+COUNTRY                              NEXT     *   ,       CHARACTER            
+POSTAL_CODE                          NEXT     *   ,       CHARACTER            
+CITY                                 NEXT     *   ,       CHARACTER            
+STATE                                NEXT     *   ,       CHARACTER            
+
+
+Table CUSTOMER:
+  9 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 735000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             9
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue Sep 06 12:40:19 2022
+Run ended on Tue Sep 06 12:40:28 2022
+
+Elapsed time was:     00:00:08.99
+CPU time was:         00:00:00.44

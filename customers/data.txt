@@ -1,0 +1,9 @@
+1,Patricia,McKenna,image.jpg,8 Johnstown Road,4678065769,patricia@gmail.com,09-MAR-95,Ireland,87110,Cork,NULL
+2,Howard,Snyder,image2.jpg,2732 Baker Blvd,1026747140,hsnyder@gmail.com,24-JUN-94,USA,97403,Manhattan,NULL
+3,Thomas,Hardy,image3.jpg,120 Hanover Sq,6350967903,thomas.hardy@gmail.com,05-AUG-91,UK,99508,London,NULL
+4,Victoria,Ashworth,image4.jpg,97 Central Park,1426150195,victoria_ash@gmail.com,12-JAN-97,UK,14742,London,NULL
+5,Liu,Wong,image5.jpg,55 Allenby Rd,4649108433,liuwong@gmail.com,15-DEC-99,USA,59801,NYC,NULL
+101,Sayan,Santra,image6.jpg,kpotownhall,3214567891,sayan@gmail.com,10-DEC-20,India,812001,Durgapur,Kolkata
+102,Ritul,Raj,image7.jpg,Townhall,3214567881,ritul@gmail,11-DEC-20,India,812021,Bhagalpur,Delhi
+103,Tasneem,Parveen,image8.jpg,Park Street,3214467891,tasneem@gmail.com,1-JAN-99,India,812401,Howrah,Kolkata
+104,Swapnil,Yadav,image9.jpg,GT Road,3214467821,swapnil@gmail.com,1-JAN-98,India,812104,Bhagalpur,Delhi
